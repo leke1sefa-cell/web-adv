@@ -2,10 +2,12 @@
 <html>
     <body>
         <form>
+            <fieldset>
+            <legend>Personal information</legend>
             <label  for="firstname">firstname :</label><br>
-            <input type="text" id="firstname" name="firstname"><br>
+            <input type="text" id="firstname" name="firstname" value="John" disabled><br>
             <label  for="lastname">lastname :</label><br>
-            <input type="text" id="lastname" name="lastname"><br>
+            <input type="text" id="lastname" name="lastname" size="32" required><br>
             <label  for="password">password :</label><br>
             <input type="password" id="password" name="password"><br>
             <label  for="email">email :</label><br>
@@ -15,9 +17,9 @@
             <input type="radio" id="male" name="Gender" value="male">
             <label for="male" >MALE</label><br>
             <input type="radio" id="female" name="Gender" value="female">
-            <label for="male" >FEMALE</label><br>
-            <input type="checkbox" id="gaming" name="Hobbies" value="gaming">
-
+            <label for="male" >FEMALE</label><br><br>
+            
+           
             <label> Hobbies :</label><br><br>
             
             <input type="checkbox" id="gaming" name="Hobbies" value="gaming">
@@ -29,6 +31,15 @@
             <input type="checkbox" id="Handball" name="Hobbies" value="Handball">
             <label for="Handball" >Handball</label><br>
 
+            <label for="pet">Chose a pet:</label>
+            <select id="pet" name="pet" >
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="parrot">Parrot</option>
+            </select>
+            <textarea name="message" rows="10" cols="20" maxlength="50"></textarea>
+
+            </fieldset>
         </form>
     </body>
 </html>
