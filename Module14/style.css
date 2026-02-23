@@ -1,0 +1,46 @@
+article p{
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+article > p{
+    background: red;
+}
+article ~ p{
+    background: green;
+    color: white;
+    padding: 20px;
+}
+article + {
+    background: orange;
+}
+span :first-of-type{
+    background: black;
+    color: white;
+    padding: 20px;
+}
+form{
+    margin-top: 20px;
+
+}
+input:invalid{
+    border: 2px solid red;
+}
+input:valid{
+    border: solid green;
+}
+input:in-range{
+    border: 3px solid green;
+}
+input:out-of-range{
+    border:  solid red ;
+}
+p::first-line{
+    color: blue;
+}
+p::first-letter{
+    font-size: 40px;
+}
+div{
+    opacity: o.5;
+}
