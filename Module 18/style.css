@@ -2,5 +2,32 @@
     height: 200px;
     width: 200px;
     border-radius: 10px;
-    background-color: beige;
+    background-color: darkblue;
+}
+#scale {
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 150px;
+    padding: 10PX;
+    background-color: rgb(100, 100, 122);
+    transform: scale(2, 2);
+}
+#rotateX{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 150px;
+    padding: 10px;
+    background-color: rgb(71, 71, 121);
+    transform: rotateX(45deg);
+}
+#skewx{
+    height: 200px;
+    width: 200px;
+    border-radius: 5px;
+    margin: 100px;
+    padding: 10px;
+    background-color: rgb(77, 77, 122);
+    transform: skewx(45deg);
 }
