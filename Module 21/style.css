@@ -1,0 +1,32 @@
+@media(min-width:600px){
+    body{
+        background-color: lightblue;
+        color: black;
+    }
+}
+@media(max-width:600px){
+    body{
+        background-color: darkblue;
+        color: white;
+    }
+}
+@media(min-width:560px) and (max-width:800px){
+    img{
+        display: none;
+    }
+}
+@media (min-width:600){
+    p{
+        column-count: 2;
+    }
+}
+@media print{
+    body{
+        background-color: transparent;
+    }
+}
+@media(min-width:600px){
+    p{
+        font-size: 12px;
+    }
+}
