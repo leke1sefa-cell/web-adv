@@ -3,9 +3,8 @@ body {
     padding: 0;
     background-color: #0f3d3e;
     color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
 
 .navigation-bar {
     display: flex;
@@ -17,7 +16,7 @@ body {
 
 .logo-title {
     margin: 0;
-    font-size: 28px;
+    font-size: 30px;
     color: white;
 }
 
@@ -39,14 +38,13 @@ body {
     padding: 80px 20px;
 }
 
-
 .services-section {
     background-color: #086d59;
     padding: 60px 10%;
     text-align: center;
 }
 
-.header-content{
+.header-content {
     margin-bottom: 60px;
 }
 
@@ -56,7 +54,6 @@ body {
     background-color: rgb(4, 75, 26);
     margin: 10px auto 20px;
 }
-
 
 .service-box {
     display: flex;
@@ -69,7 +66,6 @@ body {
     text-align: left;
 }
 
-
 .service-box img {
     width: 250px;
     height: 180px;
@@ -80,10 +76,52 @@ body {
 
 .service-text h3 {
     margin-top: 0;
-    color:  rgb(116, 161, 39);
+    color: rgb(116, 161, 39);
 }
 
 .service-text p {
-   line-height: 1.5;
-   margin-bottom: 10;
+    line-height: 1.5;
+    margin-bottom: 10px;
 }
+
+.about-section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.about-container {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 40px;
+    border-radius: 20px;
+}
+.about-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-top: 40px;
+}
+.about-info {
+    background-color: #0c3132;
+    padding: 20px;
+    border-radius: 15px;
+    flex: 1;
+    border: 1px solid #1d725a;
+    
+}
+/* Responsiviteti për telefona */
+@media (max-width: 768px) {
+    .service-box {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .service-box img {
+        width: 100%;
+        height: auto;
+    }
+
+    .about-grid {
+        flex-direction: column;
+    }
+}
+
