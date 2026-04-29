@@ -108,7 +108,7 @@ body {
     border: 1px solid #1d725a;
     
 }
-/* Responsiviteti për telefona */
+
 @media (max-width: 768px) {
     .service-box {
         flex-direction: column;
@@ -123,5 +123,37 @@ body {
     .about-grid {
         flex-direction: column;
     }
+}
+.contact-section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.contact-container {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.service-box1 {
+    display: flex;           
+    justify-content: center;   
+    align-items: center;       
+    gap: 40px;                
+    margin-top: 30px;         
+    flex-wrap: wrap;          
+}
+
+
+.service-box1 img {
+    width: 200px;             
+    height: 200px;
+    transition: transform 0.3s ease; 
+    cursor: pointer;
+}
+
+
+.service-box1 img:hover {
+    transform: scale(1.2);    
 }
 
