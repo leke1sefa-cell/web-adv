@@ -33,7 +33,7 @@ if(!(name.match(valid_name_regex)) || !(age.match(valid_age_regex)) || !(city ==
     document.getElementById("city").style.borderColor = "black";
     }
     return false;
-}else{
+    }else{
     document.getElementById("name_error").style.visibility = "hidden";
     document.getElementById("name").style.borderColor = "black";
     document.getElementById("age_error").style.visibility = "hidden";
